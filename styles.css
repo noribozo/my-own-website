@@ -151,12 +151,13 @@ aside {
 
 
 @media (max-width: 675px) {
-  .container-flex {
-    display: flex;
+  .container {
+   
     flex-direction: column;
+    margin: 0 auto;
   }
   
-  header {
+  header, h1 {
     text-align: center;
   }
   nav ul {
@@ -165,6 +166,17 @@ aside {
   nav li {
     margin: .5em 0;
   }
+  
+   .article-featured {
+      
+      margin: 0;
+    }
+    .all-article-recent {
+      min-width: 150px;
+      align-content: center;
+      border: 0;
+    }
+  
   
   .sidebar {
     display: none;

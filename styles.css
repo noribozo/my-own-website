@@ -198,14 +198,14 @@ a:focus {
 }
 
 h2 {
-  font-family: Lora;
+  font-family: "Lora", serif;
   text-align: center;
   color: #879396;
   text-shadow: 1px 1px #64cee8;
 }
 
 p{
-  font-family: Krub, sans-serif;
+  font-family: "Montserrat", sans-serif;
 
 }
 

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Lora", serif;
+  font-family: 'Lato', sans-serif;
 }
 
 /* LAYOUT */
@@ -57,7 +57,7 @@ nav a:focus {
   max-width: 675px;
   margin: 1rem auto;
   padding: .5rem 5rem;
-  text-align: center;
+  text-align: justify;
   min-width: 200px;
   background: linear-gradient(white, lightgrey, white);
 }
@@ -96,7 +96,7 @@ nav a:focus {
 
 .article-recent {
   border-bottom: 1px  solid #e1e5e6;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   display: flex;
 }
 .article-recent:last-child {
@@ -121,8 +121,8 @@ nav a:focus {
   width:75%;
   max-width: 600px;
   border: 15px solid #e1e5e6;
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 aside {
@@ -152,8 +152,7 @@ aside {
 
 @media (max-width: 675px) {
   .container {
-   
-    flex-direction: column;
+   flex-direction: column;
     margin: 0 auto;
   }
   
@@ -168,14 +167,20 @@ aside {
   }
   
    .article-featured {
-      
       margin: 0;
     }
     .all-article-recent {
-      min-width: 150px;
-      align-content: center;
+      width: 100%;
       border: 0;
     }
+  .article-recent {
+    margin: 0;
+    padding: 0;
+  }
+  .article-body {
+    margin-right: 1em;
+    font-size: .8rem;
+  }
   
   
   .sidebar {
@@ -186,7 +191,7 @@ aside {
 /* TYPOGRAPHY */
 
 h1 {
-  font-family: "Lora", serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   color: #2fb9fa;
   text-shadow: 1px 1px #c3d7e6;
@@ -210,14 +215,14 @@ a:focus {
 }
 
 h2 {
-  font-family: "Lora", serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #879396;
   text-shadow: 1px 1px #64cee8;
 }
 
 p{
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -232,4 +237,5 @@ p{
   list-style: none;
   text-shadow: 1px 1px #64cee8;
   font-size: 1.5rem;
+ text-align: justify;
  }
